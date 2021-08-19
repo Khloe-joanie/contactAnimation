@@ -1,7 +1,6 @@
 /** @format */
 
 import React, { useState } from "react";
-import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import { Link } from "react-router-dom";
 import SidebarData from "./SidebarData";
@@ -14,7 +13,6 @@ function Navbar() {
   return (
     <>
       <Link onClick={showSidebar} to="#" className="menu-bars">
-        {/* <FaIcons.FaBars /> */}
         <div className="menu-icon">
           <div className="bar"></div>
           <div className="bar"></div>
