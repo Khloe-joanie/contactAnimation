@@ -16,10 +16,10 @@ class App extends Component {
         <Router>
           <Navbar />
           <Switch>
-            <Route path="/flippingCards/" exact component={Home} />
-            <Route path="/flippingCards/about" component={About} />
-            <Route path="/flippingCards/ourstaff" component={OurStaff} />
-            <Route path="/flippingCards/contact" component={Contact} />
+            <Route path="/contactAnimation/" exact component={Home} />
+            <Route path="/contactAnimation/about" component={About} />
+            <Route path="/contactAnimation/ourstaff" component={OurStaff} />
+            <Route path="/contactAnimation/contact" component={Contact} />
           </Switch>
         </Router>
       </>
